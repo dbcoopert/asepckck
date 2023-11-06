@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>by asep ckckck</title>
+    <style>
+        body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: white; /* Warna latar belakang kuning */
+}
+
+.watermelon-slice {
+    width: 0;
+    height: 0;
+    border-left: 129px solid transparent;
+    border-right: 129px solid transparent;
+    border-bottom: 200px solid green; /* Warna daging merah semangka */
+    border-top: 10px solid transparent;
+    border-radius: 50%;
+    position: relative;
+}
+
+.rindl {
+    width: 0;
+    height: 0;
+    border-left: 120px solid transparent;
+    border-right: 120px solid transparent;
+    border-bottom: 186px solid red; /* kulit putih semangka */
+    border-top: 10px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -120px;
+    right: 0;
+    bottom: 0;
+}
+
+.rind {
+    width: 0;
+    height: 0;
+    border-left: 122px solid transparent;
+    border-right: 122px solid transparent;
+    border-bottom: 190px solid white; /* Warna daging merah semangka */
+    border-top: 10px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+    top: -10px;
+    left: -122px;
+    right: 125px;
+    bottom: 30px;
+}
+
+.flesh {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.seed {
+    width: 15px;
+    height: 15px;
+    background: #000; /* Warna biji hitam */
+    border-radius: 100%;
+    position: absolute;
+}
+
+.seed:nth-child(1) {
+    top: 55px;
+    left: -10px;
+}
+
+.seed:nth-child(2) {
+    top: 90px;
+    left: -55px;
+}
+
+.seed:nth-child(3) {
+    top: 90px;
+    left: 40px;
+}
+.seed:nth-child(4) {
+    top: 100px;
+    left: -10px;
+}
+
+.message {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black; /*warna text hitam*/
+}
+
+.messagee {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: darkgreen; /*warna text hitam*/
+}
+
+.messageee {
+    text-align: center;
+    font-size: 5px;
+    font-weight: bold;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: red; /*warna text hitam*/
+}
+    </style>
+</head>
+<body>
+    <div class="watermelon-slice">
+        <div class="rind"></div>
+        <div class="rindl"></div>
+        <div class="flesh">
+            <div class="seed"></div>
+            <div class="seed"></div>
+            <div class="seed"></div>
+            <div class="seed"></div>
+        </div>
+    </div>
+    <div class="message">Free Palestine</div>
+    <div class="messagee">•jangan lupa do'a kan saudara saudara kita disana•</div>
+    <div class="messageee">®asep menolak israel</div>
+</body>
+</html>
